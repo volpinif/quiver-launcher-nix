@@ -6,11 +6,11 @@
 
 let
   pname = "quiver-launcher";
-  version = "3.5.0";
+  version = "3.5.1";
 
   src = fetchurl {
     url = "https://github.com/tgeorgiadis/quiver-launcher/releases/download/v${version}/QuiverLauncher-linux-x64.AppImage";
-    hash = "sha256-jf5KobDajoXfIpzxd7ZU1Z6qh5ZdEh2awGK1TSobw9A";
+    hash = "sha256-qM1TmLba6SS87Ans4XgcA8v9cymGdUdvJvwcBy08Yps=";
   };
 
   appimageContents = appimageTools.extract {
